@@ -8,11 +8,15 @@ namespace Model.EF
 
     public partial class s5_order_detail
     {
-        public int id { get; set; }
+        [Key]
+        [Column(Order = 0)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int id_product { get; set; }
 
+        [Key]
+        [Column(Order = 1)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int id_order { get; set; }
-
-        public string name { get; set; }
 
         public int? qty { get; set; }
 

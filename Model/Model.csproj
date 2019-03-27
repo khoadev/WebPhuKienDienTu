@@ -50,14 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EF\PhuKienDienTuDbContext.cs" />
     <Compile Include="EF\s5_comment.cs" />
+    <Compile Include="EF\s5_discount.cs" />
     <Compile Include="EF\s5_order.cs" />
     <Compile Include="EF\s5_order_detail.cs" />
     <Compile Include="EF\s5_product.cs" />
     <Compile Include="EF\s5_reply.cs" />
-    <Compile Include="EF\s5_status.cs" />
     <Compile Include="EF\s5_user.cs" />
-    <Compile Include="EF\WebPhuKienDienTuDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

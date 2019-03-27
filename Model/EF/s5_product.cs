@@ -24,5 +24,13 @@ namespace Model.EF
 
         [Column(TypeName = "text")]
         public string img { get; set; }
+
+        public int? active { get; set; }
+
+        public int? qty { get; set; }
+
+        public int? views { get; set; }
+
+        public int? sold_out { get; set; }
     }
 }

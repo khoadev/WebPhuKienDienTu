@@ -15,5 +15,16 @@ namespace Model.EF
         public int? active { get; set; }
 
         public DateTime? date { get; set; }
+
+        public string name { get; set; }
+
+        [Column(TypeName = "ntext")]
+        public string address { get; set; }
+
+        [StringLength(15)]
+        public string mobile { get; set; }
+
+        [Column(TypeName = "ntext")]
+        public string remark { get; set; }
     }
 }
